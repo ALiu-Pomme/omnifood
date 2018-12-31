@@ -73,6 +73,16 @@ h2:after {
 	margin-top: 30px;
 }
 
+/* ICONS --------------------------------*/
+
+.icon-big {
+	font-size: 250%;
+	display: block;
+	color: #F56631;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
 /* PARAGRAPHS ---------------------------*/
 
 .long-copy {
@@ -83,8 +93,13 @@ h2:after {
 }
 
 .box p {
+	text-align: justify;
 	font-size: 90%;
-	line-height: 145%
+	line-height: 130%
+}
+
+.box h3 {
+	text-align: center;
 }
 
 /* BUTTONS ------------------------------*/
