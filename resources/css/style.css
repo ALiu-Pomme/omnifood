@@ -1,3 +1,8 @@
+
+/* ---------------------------------------
+  BASIC SETUP
+-----------------------------------------*/
+
 * {
 	margin: 0;
 	padding: 0;
@@ -12,6 +17,16 @@ html {
 	font-weight: 300;
 	text-rendering: optimizeLegibility;
 }
+
+.clearfix {zoom: 1;}
+.clearfix:after {
+	content: ".";
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
 
 /* ---------------------------------------
   REUSABLE COMPONENTS
@@ -257,3 +272,50 @@ header {
 /* ---------------------------------------
   HOW IT WORKS
 -----------------------------------------*/
+
+.section-how {
+	background-color: #EAEAEA;
+}
+
+.how-box:first-child {
+	text-align: right;
+	padding-right: 3%
+	margin-top: 30px;
+}
+
+.how-box:last-child {
+	padding-left: 3%;	
+	margin-top: 70px;
+}
+
+.app-screen {
+	width: 40%;
+}
+
+.how-steps {
+	margin-bottom: 50px;
+}
+
+.how-steps div {
+	color: #F56631;
+	border: 2px solid #F56631;
+	display: inline-block;
+	border-radius: 50%;
+	height: 55px;
+	width: 55px;
+	text-align: center;
+	font-size: 150%;
+	padding: 8px;
+	float: left;
+	margin-right: 25px;
+}
+
+.how-steps:last-of-type {
+	margin-bottom: 70px;
+}
+
+.btn-app img {
+	height: 50px;
+	width: auto;
+	margin-right: 10px;
+}
