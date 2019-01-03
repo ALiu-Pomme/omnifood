@@ -98,6 +98,19 @@ h2:after {
 	text-align: center;
 }
 
+.icon-small {
+	display: inline-block;
+	width: 30px;
+	text-align: center;
+	color: #F56631;
+	font-size: 120%;
+	margin-right: 10px;
+	/* To align text and icons */
+	line-height: 120%;
+	vertical-align: middle;
+	margin-top: -4px;
+}
+
 /* PARAGRAPHS ---------------------------*/
 
 .long-copy {
@@ -112,6 +125,22 @@ h2:after {
 	line-height: 145%
 }
 
+/* LINKS --------------------------------*/
+
+a:link,
+a:visited {
+	color: #F56631;
+	text-decoration: none;
+	padding-bottom: 1px;
+	border-bottom: 1px solid #F56631;
+	transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover,
+a:active {
+	color: #313131;
+	border-bottom: 1px solid transparent;
+}
 
 /* BUTTONS ------------------------------*/
 
@@ -314,6 +343,11 @@ header {
 	margin-bottom: 70px;
 }
 
+.btn-app:link,
+.btn-app:visited {
+	border-bottom: 0px;
+}
+
 .btn-app img {
 	height: 50px;
 	width: auto;
@@ -323,3 +357,17 @@ header {
 /* ---------------------------------------
   CITIES
 -----------------------------------------*/
+
+.section-cities .box img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 15px;
+}
+
+.city-feature {
+	margin-bottom: 5px;
+}
+
+.section-cities .ion-fork {
+	font-size: 135%
+}
