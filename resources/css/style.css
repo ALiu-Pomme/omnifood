@@ -417,3 +417,55 @@ cite img {
 /* ---------------------------------------
   PRICE PLANS
 -----------------------------------------*/
+
+.section-plans {
+	background-color: #EAEAEA;
+}
+
+.plan-box {
+	background-color: #FFF;
+	border-radius: 5px;
+	width: 90%;
+	margin-left: 5%;
+	box-shadow: 0 2px 2px #EBEBEB;
+}
+
+.plan-box div {
+	padding: 15px;
+	border-bottom: 1px solid #EEE;
+}
+
+.plan-box ul {
+	list-style: none;
+}
+
+.plan-box ul li {
+	padding: 5px 0;
+}
+
+.plan-box div:first-child {
+	background-color: #FBFBFB;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.plan-box div:last-child {
+	text-align: center;
+	border: none;
+}
+
+.plan-price {
+	font-size: 300%;
+	margin-bottom: 10px;
+	font-weight: 200;
+	color: #F56631;
+}
+
+.plan-price span {
+	font-size: 30%;
+	font-weight: 300;
+}
+
+.plan-price-meal {
+	font-size: 80%
+}
