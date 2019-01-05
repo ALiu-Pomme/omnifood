@@ -9,13 +9,15 @@
 	box-sizing: border-box;
 }
 
-html {
+html,
+body {
 	background-color: #FFF;
 	color: #313131;
 	font-family: "Lato", "Arial", sans-serif;
 	font-size: 20px;
 	font-weight: 300;
 	text-rendering: optimizeLegibility;
+	overflow-x: hidden;
 }
 
 .clearfix {zoom: 1;}
@@ -247,7 +249,10 @@ header {
 
 .section-features h3 {text-align: center;}
 
-.section-features p {font-size: 88%;}
+.section-features p {
+	font-size: 88%;
+
+}
 
 /* ---------------------------------------
   MEALS
@@ -291,6 +296,8 @@ header {
 -----------------------------------------*/
 
 .section-how {background-color: #EAEAEA;}
+
+.how-box {margin-top: 30px}
 
 .how-box:first-child {
 	text-align: right;
