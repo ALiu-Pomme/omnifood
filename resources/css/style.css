@@ -38,13 +38,9 @@ html {
 
 }
 
-section {
-	padding: 80px 0;
-}
+section {padding: 80px 0;}
 
-.box {
-	padding: 1%;
-}
+.box {padding: 1%;}
 
 /* HEADINGS -----------------------------*/
 
@@ -174,9 +170,7 @@ input[type=submit] {
 .button:hover,
 .button:active,
 input[type=submit]:hover,
-input[type=submit]:active {
-	background-color: #c73d0a
-}
+input[type=submit]:active {background-color: #c73d0a}
 
 .btn-full:hover,
 .btn-full:active {
@@ -242,35 +236,24 @@ header {
 }
 
 .main-nav li a:hover,
-.main-nav li a:active {
-	border-bottom: 2px solid #F56631;
-}
+.main-nav li a:active {border-bottom: 2px solid #F56631;}
 
 
 /* ---------------------------------------
   FEATURES
 -----------------------------------------*/
 
-.section-features long-copy: {
-	margin-bottom: 40px;
-}
+.section-features long-copy: {margin-bottom: 40px;}
 
-.section-features h3 {
-	text-align: center;
-}
+.section-features h3 {text-align: center;}
 
-.section-features p {
-	font-size: 88%;
-	text-align: justify;
-}
+.section-features p {font-size: 88%;}
 
 /* ---------------------------------------
   MEALS
 -----------------------------------------*/
 
-.section-meals {
-	padding: 0;
-}
+.section-meals {padding: 0;}
 
 .meals-showcase {
 	list-style: none;
@@ -307,9 +290,7 @@ header {
   HOW IT WORKS
 -----------------------------------------*/
 
-.section-how {
-	background-color: #EAEAEA;
-}
+.section-how {background-color: #EAEAEA;}
 
 .how-box:first-child {
 	text-align: right;
@@ -322,13 +303,9 @@ header {
 	margin-top: 70px;
 }
 
-.app-screen {
-	width: 40%;
-}
+.app-screen {width: 40%;}
 
-.how-steps {
-	margin-bottom: 50px;
-}
+.how-steps {margin-bottom: 50px;}
 
 .how-steps div {
 	color: #F56631;
@@ -344,14 +321,10 @@ header {
 	margin-right: 25px;
 }
 
-.how-steps:last-of-type {
-	margin-bottom: 70px;
-}
+.how-steps:last-of-type {margin-bottom: 70px;}
 
 .btn-app:link,
-.btn-app:visited {
-	border-bottom: 0px;
-}
+.btn-app:visited {border-bottom: 0px;}
 
 .btn-app img {
 	height: 50px;
@@ -369,13 +342,9 @@ header {
 	margin-bottom: 15px;
 }
 
-.city-feature {
-	margin-bottom: 5px;
-}
+.city-feature {margin-bottom: 5px;}
 
-.section-cities .ion-fork {
-	font-size: 135%
-}
+.section-cities .ion-fork {font-size: 135%}
 
 /* ---------------------------------------
   CUSTOMER TESTIMONIALS
