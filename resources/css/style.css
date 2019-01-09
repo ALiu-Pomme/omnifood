@@ -215,6 +215,14 @@ header {
 	margin-top: 20px;
 }
 
+.logo-black {
+	display: none;
+	height: 50px;
+	width: auto;
+	float: left;
+	margin: 5px 0;
+}
+
 .main-nav {
 	float: right;
 	list-style: none;
@@ -240,6 +248,29 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {border-bottom: 2px solid #F56631;}
 
+/* STICKY-NAV ---------------------------*/
+
+.sticky {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0.98);
+	box-shadow: 0 2px 2px #F0F0F0;
+	z-index: 9999; /* Vertical position (how elements stack) */
+}
+
+.sticky .main-nav {margin-top: 18px;}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+	padding: 16px 0;
+	color: #313131;
+}
+
+.sticky .logo {display: none;}
+
+.sticky .logo-black {display: block;}
 
 /* ---------------------------------------
   FEATURES
@@ -398,9 +429,7 @@ cite img {
   PRICE PLANS
 -----------------------------------------*/
 
-.section-plans {
-	background-color: #EAEAEA;
-}
+.section-plans {background-color: #EAEAEA;}
 
 .plan-box {
 	background-color: #FFF;
@@ -415,13 +444,9 @@ cite img {
 	border-bottom: 1px solid #EEE;
 }
 
-.plan-box ul {
-	list-style: none;
-}
+.plan-box ul {list-style: none;}
 
-.plan-box ul li {
-	padding: 5px 0;
-}
+.plan-box ul li {padding: 5px 0;}
 
 .plan-box div:first-child {
 	background-color: #FBFBFB;
@@ -446,9 +471,7 @@ cite img {
 	font-weight: 300;
 }
 
-.plan-price-meal {
-	font-size: 80%
-}
+.plan-price-meal {font-size: 80%}
 
 /* ---------------------------------------
   CONTACT FORM
@@ -469,17 +492,11 @@ textarea {
 	border: 1px solid #ccc;
 }
 
-textarea {
-	height: 100px;
-}
+textarea {height: 100px;}
 
-input[type=checkbox] {
-	margin: 10px 5px 10px 0;
-}
+input[type=checkbox] {margin: 10px 5px 10px 0;}
 
-*:focus {
-	outline: none;
-}
+*:focus {outline: none;}
 
 /* ---------------------------------------
   FOOTER
@@ -508,9 +525,7 @@ footer {
 }
 
 .footer-nav li:last-child,
-.social-links li:last-child {
-	margin: 0;
-}
+.social-links li:last-child {margin: 0;}
 
 .footer-nav li a:link,
 .footer-nav li a:visited,
@@ -523,37 +538,23 @@ footer {
 }
 
 .footer-nav li a:hover,
-.footer-nav li a:active {
-	color: #CCC;
-}
+.footer-nav li a:active {color: #CCC;}
 
 .social-links li a:link,
-.social-links li a:visited {
-	font-size: 140%;
-}
+.social-links li a:visited {font-size: 140%;}
 
 .ion-social-facebook,
 .ion-social-twitter,
 .ion-social-googleplus,
-.ion-social-instagram {
-	transition: color 0.2s;
-}
+.ion-social-instagram {transition: color 0.2s;}
 
-.ion-social-facebook:hover {
-	color: #4267b2;
-}
+.ion-social-facebook:hover {color: #4267b2;}
 
-.ion-social-twitter:hover {
-	color: #1da1f2;
-}
+.ion-social-twitter:hover {color: #1da1f2;}
 
-.ion-social-googleplus:hover {
-	color: #db4437;
-}
+.ion-social-googleplus:hover {color: #db4437;}
 
-.ion-social-instagram:hover {
-	color: #c32aa3;
-}
+.ion-social-instagram:hover {color: #c32aa3;}
 
 footer p {
 	color: #888;
@@ -561,3 +562,4 @@ footer p {
 	font-size: 70%;
 	margin-top: 20px;
 }
+
